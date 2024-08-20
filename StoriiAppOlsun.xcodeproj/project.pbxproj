@@ -11,6 +11,10 @@
 		89EAF6852C74C37B002211DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF6842C74C37B002211DF /* ContentView.swift */; };
 		89EAF6872C74C37C002211DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EAF6862C74C37C002211DF /* Assets.xcassets */; };
 		89EAF68A2C74C37C002211DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EAF6892C74C37C002211DF /* Preview Assets.xcassets */; };
+		89EAF6912C74D1A3002211DF /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF6902C74D1A3002211DF /* LibraryView.swift */; };
+		89EAF6932C74D1C8002211DF /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF6922C74D1C8002211DF /* DiscoverView.swift */; };
+		89EAF6952C74D267002211DF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF6942C74D267002211DF /* ProfileView.swift */; };
+		89EAF6972C74D323002211DF /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAF6962C74D323002211DF /* RankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		89EAF6842C74C37B002211DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89EAF6862C74C37C002211DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89EAF6892C74C37C002211DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89EAF6902C74D1A3002211DF /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		89EAF6922C74D1C8002211DF /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		89EAF6942C74D267002211DF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		89EAF6962C74D323002211DF /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		89EAF6812C74C37B002211DF /* StoriiAppOlsun */ = {
 			isa = PBXGroup;
 			children = (
+				89EAF6942C74D267002211DF /* ProfileView.swift */,
+				89EAF6922C74D1C8002211DF /* DiscoverView.swift */,
+				89EAF6902C74D1A3002211DF /* LibraryView.swift */,
 				89EAF6822C74C37B002211DF /* StoriiAppOlsunApp.swift */,
 				89EAF6842C74C37B002211DF /* ContentView.swift */,
 				89EAF6862C74C37C002211DF /* Assets.xcassets */,
 				89EAF6882C74C37C002211DF /* Preview Content */,
+				89EAF6962C74D323002211DF /* RankView.swift */,
 			);
 			path = StoriiAppOlsun;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EAF6852C74C37B002211DF /* ContentView.swift in Sources */,
+				89EAF6912C74D1A3002211DF /* LibraryView.swift in Sources */,
+				89EAF6952C74D267002211DF /* ProfileView.swift in Sources */,
 				89EAF6832C74C37B002211DF /* StoriiAppOlsunApp.swift in Sources */,
+				89EAF6972C74D323002211DF /* RankView.swift in Sources */,
+				89EAF6932C74D1C8002211DF /* DiscoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

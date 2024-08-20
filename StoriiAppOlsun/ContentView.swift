@@ -1,24 +1,32 @@
-//
-//  ContentView.swift
-//  StoriiAppOlsun
-//
-//  Created by Ömer Bıçakcıoğlu on BE 20.08.2567.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("ugurcan")
+        TabView {
+            LibraryView()
+                .tabItem {
+                    Image(systemName: "books.vertical")
+                    Text("Library")
+                }
+
+            DiscoverView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Discover")
+                }
+
+            RankView()
+                .tabItem {
+                    Image(systemName: "star")
+                    Text("Rank")
+                }
+
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Profile")
+                }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
